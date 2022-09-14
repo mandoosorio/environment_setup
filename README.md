@@ -11,13 +11,16 @@
 5. create ssh key:
   (Windows)
   - open bash
-  - ls -al ~/.ssh (to check existing keys)
-  - ssh-keygen -t rsa -b 4096 -C "email"
-  - eval "$(ssh-agent -s)"
-  - ssh-add ~/.ssh/id_rsa
-  - clip < ~/.ssh/id_rsa.pub
-  - ssh -T git@github.com
+  - ```ls -al ~/.ssh``` (to check existing keys)
+  - ```ssh-keygen -t rsa -b 4096 -C "email"```
+  - ```eval "$(ssh-agent -s)"```
+  - ```ssh-add ~/.ssh/id_rsa```
+  - ```clip < ~/.ssh/id_rsa.pub```
+  - ```ssh -T git@github.com```
+
   (Mac)
+  - same steps, except copy command is ```pbcopy < ~/.ssh/id_rsa.pub```
+  - may have to create the ssh folder: ```mkdir -p ~/.ssh```
 6. setup git for github:
-  - git config --global user.name "username"
-  - git config --global user.email "email"
+  - ```git config --global user.name "username"```
+  - ```git config --global user.email "email"```
