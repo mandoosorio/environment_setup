@@ -21,6 +21,7 @@
   (Mac)
   - same steps, except copy command is ```pbcopy < ~/.ssh/id_rsa.pub```
   - may have to create the ssh folder: ```mkdir -p ~/.ssh```
+  - if there is an error with hosts, go into ssh folder and delete the config file ```cd ~/.ssh```
 6. setup git for github:
   - ```git config --global user.name "username"```
   - ```git config --global user.email "email"```
