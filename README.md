@@ -6,9 +6,10 @@
   -"Output Colorizer" extension (IBM)
   -"Rainbow Brackets" extension (2gua)
 2. Download git (https://git-scm.com/downloads)
-3. Download nodejs
-4. Login to Github
-5. create ssh key:
+   - Download BitBucket (https://www.atlassian.com/software/bitbucket/download)
+4. Download nodejs
+5. Login to Github
+6. create ssh key:
   (Windows)
   - open bash
   - ```ls -al ~/.ssh``` (to check existing keys)
