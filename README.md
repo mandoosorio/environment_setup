@@ -5,7 +5,7 @@
   -"Live Preview" extension (Microsoft)
   -"Output Colorizer" extension (IBM)
   -"Rainbow Brackets" extension (2gua)
-2. Download git
+2. Download git (https://git-scm.com/downloads)
 3. Download nodejs
 4. Login to Github
 5. create ssh key:
