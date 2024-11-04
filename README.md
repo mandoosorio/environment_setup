@@ -16,7 +16,7 @@
   - ```ssh-keygen -t rsa -b 4096 -C "email"```
   - ```eval "$(ssh-agent -s)"```
   - ```ssh-add ~/.ssh/id_rsa```
-  - ```clip < ~/.ssh/id_rsa.pub```
+  - ```clip < ~/.ssh/id_rsa.pub (or cat instead of clip)```
   - ```ssh -T git@github.com```
 
   (Mac)
